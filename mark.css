@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/vcr-osd-mono');
+
+body {
+ background-image: url('godfist.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ margin: 0;
+ font-family: 'Dois', sans-serif;
+ font-display: swap;
+}
+
+.calculator-container {
+ border: 1px solid black;
+ border-radius: 20px;
+ box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+ border-style: outset;
+ width: 300px;
+ height: 600px;
+ padding: 30px;
+ background: linear-gradient(320deg, #a43c3c, #ffffff, dark);
+ backdrop-filter: blur(5.5px);
+ -webkit-backdrop-filter: blur(5.5px);
+}
+
+.calculator-display {
+ width: 96%;
+ height: 10%;
+ padding: 10px;
+ font-size: 30px;
+ font-family: 'VCR OSD Mono', sans-serif;
+ margin-bottom: 10px;
+ border-radius: 20px;
+ border-color: white;
+ color: #232323;
+ text-align: right;
+ overflow: auto;
+}
+
+.button-grid {
+ margin-top: 5%;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 10px;
+ justify-content: space-between;
+}
+
+.button-grid button {
+ margin-top: 4%;
+ font-size: 40px;
+ padding: 20px;
+ border-radius: 20px;
+ font-family: 'VCR OSD Mono', sans-serif;
+ border: 1px solid rgba(255, 255,255, 0.01);
+ background: rgba(255, 255,255, 0.75);
+ color: #363636;
+ backdrop-filter: blur(5.5px);
+ -webkit-backdrop-filter: blur(5.5px);
+}
+
+.button-grid button.span-3 {
+ grid-column: span 3;
+}
+
+.button-grid button.clear-button {
+ background-image: url('pfp.png');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ border: 1px solid black;
+ border-radius: 20px;
+ box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+ border-style: hidden;
+    zoom: 5fr;
+  }
+  
