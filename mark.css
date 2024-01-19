@@ -59,6 +59,11 @@ body {
  color: #363636;
  backdrop-filter: blur(5.5px);
  -webkit-backdrop-filter: blur(5.5px);
+ transition: transform 0.3s ease-in-out;
+}
+
+.button-grid button:hover {
+ transform: scale(1.1);
 }
 
 .button-grid button.span-3 {
