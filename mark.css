@@ -46,6 +46,11 @@ body {
  grid-template-columns: repeat(4, 1fr);
  gap: 10px;
  justify-content: space-between;
+ transition: transform 0.3s ease-in-out;
+}
+
+.button-grid:hover {
+ transform: scale(1,1);
 }
 
 .button-grid button {
